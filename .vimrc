@@ -80,6 +80,9 @@ endfunction
 
 autocmd FileType go nmap <leader>b :<C-u>call <SID>build_go_files()<CR>
 
+let g:go_gotags_bin = '/home/solusadmin/go/bin/gotags'
+let ctagsbin = expand(g:go_gotags_bin)
+
 let g:tagbar_type_go = {
     \ 'ctagstype' : 'go',
     \ 'kinds'     : [
@@ -104,7 +107,7 @@ let g:tagbar_type_go = {
         \ 'ctype' : 't',
         \ 'ntype' : 'n'
     \ },
-    \ 'ctagsbin'  : 'gotags',
+    \ 'ctagsbin'  : ctagsbin,
     \ 'ctagsargs' : '-sort -silent'
 \ }
 
