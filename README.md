@@ -10,3 +10,4 @@ Vim settings with useful helpers and golang implementation
 * Syntax Highlights
 
 ![UI](https://raw.githubusercontent.com/code-badger/vim-settings/master/ui_sample.png)
+![VIM](https://cdn.iconscout.com/public/images/icon/free/png-128/vim-company-brand-logo-3a071bb2196648f2-128x128.png)
