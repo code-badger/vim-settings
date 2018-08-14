@@ -1,6 +1,12 @@
 # Vim Settings
-Vim settings with useful helpers and golang implementation
 
+## Setup
+
+```git
+  git clone https://github.com/code-badger/vim-settings.git ~/.vimrc
+```
+
+## Features
 * Go Plugin (Build, Lint, Test)
 * Molokai Color Theme
 * NeardTREE, TagBar Toggler 
@@ -11,3 +17,5 @@ Vim settings with useful helpers and golang implementation
 
 ![UI](https://raw.githubusercontent.com/code-badger/vim-settings/master/ui_sample.png)
 ![VIM](https://cdn.iconscout.com/public/images/icon/free/png-128/vim-company-brand-logo-3a071bb2196648f2-128x128.png)
+
+  
