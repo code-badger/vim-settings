@@ -10,4 +10,4 @@ Vim settings with useful helpers and golang implementation
 * Type Auto-Completion
 * Syntax Highlights
 
-![VIM]("https://raw.githubusercontent.com/code-badger/vim-settings/master/ui_sample.png")
+![VIM]("https://github.com/code-badger/vim-settings/blob/master/ui_sample.png")
