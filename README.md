@@ -11,5 +11,4 @@ Vim settings with useful helpers and golang implementation
 * Syntax Highlights
 
 
-<br>
 ![UI](https://raw.githubusercontent.com/code-badger/vim-settings/master/ui_sample.png)
