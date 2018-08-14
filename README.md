@@ -2,12 +2,14 @@
 # Vim Settings
 Vim settings with useful helpers and golang implementation
 
-* Go Plugin and Shortcuts
-* Molokai Plugin
+* Go Plugin (Build, Lint, Test)
+* Molokai Color Theme
+* NeardTREE, TagBar Toggler 
 * Multi-row Comment/Uncomment Shortcut
-* NeardTREE, TagBar
-* Tab and Error Switch Shortcuts
+* Tab, Error Switch Shortcuts
 * Type Auto-Completion
 * Syntax Highlights
 
+
+<br>
 ![UI](https://raw.githubusercontent.com/code-badger/vim-settings/master/ui_sample.png)
