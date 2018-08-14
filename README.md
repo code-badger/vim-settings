@@ -1,6 +1,5 @@
 # Vim Settings
 
-## Features
 * Go Plugin (Build, Lint, Test)
 * Molokai Color Theme
 * NeardTREE, TagBar Toggler 
@@ -11,7 +10,7 @@
 
 ![UI](https://raw.githubusercontent.com/code-badger/vim-settings/master/ui_sample.png)
 
-  ## Setup
+# Setup
 
 ```git
   git clone https://github.com/code-badger/vim-settings.git ~/.vimrc
