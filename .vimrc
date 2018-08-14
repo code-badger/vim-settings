@@ -15,7 +15,7 @@ call plug#end()
 let g:molokai_original = 1
 let g:rehash256 = 1
 colorscheme molokai
-"Auto save file for execution i.e. GoBuil, GoTest
+" Auto save file for execution i.e. GoBuil, GoTest
 set autowrite
 " Show row number
 set number
@@ -47,6 +47,7 @@ autocmd FileType go nmap <leader>r <Plug>(go-run)
 autocmd FileType go nmap <leader>t <Plug>(go-test)
 "autocmd FileType go nmap <leader>l <Plug>(golint)
 autocmd FileType go nmap <Leader>i <Plug>(go-info)
+"autocmd FileType go nmap <leader>b :<C-u>call <SID>build_go_files()<CR>
 
 autocmd Filetype go command! -bang A call go#alternate#Switch(<bang>0, 'edit')
 autocmd Filetype go command! -bang AV call go#alternate#Switch(<bang>0, 'vsplit')
@@ -88,7 +89,6 @@ function! s:build_go_files()
  endif
 endfunction
 
-autocmd FileType go nmap <leader>b :<C-u>call <SID>build_go_files()<CR>
 
 " TagBar implmenetation with custom gotags directory
 let g:go_gotags_bin = '/home/solusadmin/go/bin/gotags'
@@ -121,7 +121,7 @@ let g:tagbar_type_go = {
     \ 'ctagsargs' : '-sort -silent'
 \ }
 
-" multi-row comment shortcuts
+" Multi-row comment shortcuts
 map <C-a> :call Comment()<CR>
 map <C-b> :call Uncomment()<CR>
 
