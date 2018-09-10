@@ -14,7 +14,6 @@ call plug#end()
 " Molokai config
 let g:molokai_original = 1
 let g:rehash256 = 1
-colorscheme molokai
 " Auto save file for execution i.e. GoBuil, GoTest
 set autowrite
 " Show row number
@@ -91,7 +90,7 @@ endfunction
 
 
 " TagBar implmenetation with custom gotags directory
-let g:go_gotags_bin = '/home/solusadmin/go/bin/gotags'
+let g:go_gotags_bin = '~/go/bin/gotags'
 let ctagsbin = expand(g:go_gotags_bin)
 let g:tagbar_type_go = {
     \ 'ctagstype' : 'go',
