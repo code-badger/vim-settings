@@ -41,12 +41,15 @@ autocmd BufNewFile,BufRead *.yml setlocal noexpandtab tabstop=2 shiftwidth=2
 autocmd BufNewFile,BufRead *.yaml setlocal noexpandtab tabstop=2 shiftwidth=2
 
 " Go short-cuts
-"autocmd FileType go nmap <leader>b <Plug>(go-build)
+autocmd FileType go nmap <leader>b <Plug>(go-build)
 autocmd FileType go nmap <leader>r <Plug>(go-run)
 autocmd FileType go nmap <leader>t <Plug>(go-test)
-"autocmd FileType go nmap <leader>l <Plug>(golint)
-autocmd FileType go nmap <Leader>i <Plug>(go-info)
-"autocmd FileType go nmap <leader>b :<C-u>call <SID>build_go_files()<CR>
+autocmd FileType go nmap <leader>l <Plug>(go-metalinter)
+autocmd FileType go nmap <leader>i <Plug>(go-info)
+autocmd FileType go nmap <leader>d <Plug>(go-doc)
+autocmd FileType go nmap gd <Plug>(go-def)
+autocmd FileType go nmap <leader>s <Plug>(go-def-split)
+autocmd FileType go nmap <leader>v <Plug>(go-def-vertical)
 
 autocmd Filetype go command! -bang A call go#alternate#Switch(<bang>0, 'edit')
 autocmd Filetype go command! -bang AV call go#alternate#Switch(<bang>0, 'vsplit')
